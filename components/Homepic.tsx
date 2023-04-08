@@ -1,5 +1,8 @@
 import React from 'react'
+import Image from 'next/image';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import MyImage from "../public/images/pic5.webp"
+
 export const Homepic = () => {
   return (
     <section className="max-w-4xl mx-auto flex md:flex-row flex-col mt-16" id="Home">
@@ -23,11 +26,11 @@ export const Homepic = () => {
       {/* left ends here */}
 
       {/* right  */}
-      <div>
-       <img 
-       src= "https://resume-template-gamma.vercel.app/images/car3.webp" 
-       alt='Home pic'
-       className= "md:w-full w-1/2 mx-auto" 
+      <div className= "w-1/2 md:w-full mx-auto" >
+       <Image
+       src= {MyImage} 
+       alt='my-pic'
+      className='rounded-3xl'
        />
       </div> 
       {/* right ends */}
