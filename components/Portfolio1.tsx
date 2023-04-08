@@ -1,5 +1,6 @@
 import React from "react";
 import { portfolioData } from "@/data/PortfilioData";
+import Link from "next/link";
 
 export const Portfolio1 = () => {
   return (
@@ -21,14 +22,14 @@ export const Portfolio1 = () => {
             
             <div className="flex justify-between px-5 text-white">
               <button className="p-4 hover:scale-105 duration-200">
-                <a href={item.demo} target={"_blank"}>
+                <Link href={item.demo} target={"_blank"}>
                   Demo
-                </a>
+                </Link>
               </button>
               <button className="p-4 hover:scale-105 duration-200">
-                <a href={item.code} target={"_blank"}>
+                <Link href={item.code} target={"_blank"}>
                   Code
-                </a>
+                </Link>
               </button>
             </div>
           </div>

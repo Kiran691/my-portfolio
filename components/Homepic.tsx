@@ -1,10 +1,8 @@
-import Image  from 'next/image'
 import React from 'react'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
-import Pic1 from "@/public/images/portfolio/pic.avif"
 export const Homepic = () => {
   return (
-    <section className="max-w-4xl mx-auto flex md:flex-row flex-col mt-16">
+    <section className="max-w-4xl mx-auto flex md:flex-row flex-col mt-16" id="Home">
       {/* left start here  */}
       <div className='p-5 max-w-lg leading-8'>
         
