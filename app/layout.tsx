@@ -1,3 +1,4 @@
+
 import './globals.css'
 
 export const metadata = {
@@ -12,7 +13,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+        <title>Resume-Kiran</title>
+      </head>
+      <body className='bg-gradient-to-r from-gray-700 to-gray-900'>
+        
+        {children}
+      </body>
+      
     </html>
   )
 }
