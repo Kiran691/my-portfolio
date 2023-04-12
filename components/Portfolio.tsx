@@ -17,7 +17,7 @@ export const Portfolio = () => {
               <img
                 src={item.image}
                 alt={item.name}
-                className="rounded-t-md h-60 w-80"
+                className="rounded-t-md h-40 w-60"
               />
             
             <div className="flex justify-between px-5 text-white">
