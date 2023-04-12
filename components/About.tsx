@@ -11,9 +11,9 @@ export default function About() {
             <h1 className="text-center text-4xl text-white mb-10">About Me</h1>
   
             <p>
-              I am bahchelros in Comerce and Business Administration. Currently a student of Web-3 and Metaverse development programme by Presidential Initiative for Artificial Intelligence and Computing (PIAIC) and Panaverse - a one and a half year programme consisting of onsite as well as online classes. The programme is intended to equip the students with state of the art and cutting edge technologies to enable them to work and contribute globally. </p>
+              I have a bahchelors of Commerce and Business Administration. Currently a student of Web-3 and Metaverse development programme by Presidential Initiative for Artificial Intelligence and Computing (PIAIC) and Panaverse.This is one and a half year programme consisting of onsite as well as online classes. The programme is intended to equip the students with state of the art and cutting edge technologies to enable them to work and contribute globally. </p>
             <p>
-             I have keen interest in information technology and computer sciences and endeavouring to learn the latest technologies related to web and applications development and be able to work in global markete.
+             I have a keen interest in information technology and computer sciences and endeavouring to learn the latest technologies related to web and applications development.I am interested in working in the global market.
             </p>
           </div>
         </div>

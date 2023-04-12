@@ -8,7 +8,7 @@ export const  Header = () => {
 
 
   return (
-    <section className="bg-indigo-700 text-white sticky top-0">
+    <section className="bg-indigo-600 text-white sticky top-0">
       <div className="flex justify-between items-center">
         <h1 className="font-name m-7">Kiran Imran</h1>
         <ul className="m-7  md:flex hidden">
@@ -38,22 +38,22 @@ export const  Header = () => {
         </div>
         {/* voerlay start */}
         {!toggle && (
-        <div className="fixed top-0 left-0 bg-black h-screen text-red-500 w-full flex items-center justify-center">
-        <ul className="m-7   text-white">
+        <div className="fixed top-0 left-0 bg-indigo-600 h-screen w-full flex items-center justify-center">
+        <ul className="m-7 text-white">
         <a className="cursor-pointer" href="#Home">
-          <li className="mx-5 my-2 text-8xl font-headerlist ">Home</li>
+          <li className="mx-5 my-2 text-6xl font-headerlist ">Home</li>
           </a>
           <a className="cursor-pointer" href="#About">
-          <li className="mx-5 my-2 text-8xl font-headerlist ">About</li>
+          <li className="mx-5 my-2 text-6xl font-headerlist ">About</li>
           </a>
           <a className="cursor-pointer" href="#Portfolio">
-          <li className="mx-5 my-2 text-8xl font-headerlist ">Portfolio</li>
+          <li className="mx-5 my-2 text-6xl font-headerlist ">Portfolio</li>
           </a>
           <a className="cursor-pointer" href="#Skills">
-          <li className="mx-5 my-2 text-8xl font-headerlist ">Skills</li>
+          <li className="mx-5 my-2 text-6xl font-headerlist ">Skills</li>
           </a>
           <a className="cursor-pointer" href="#Contact">
-          <li className="mx-5 my-2 text-8xl font-headerlist ">Contact</li>
+          <li className="mx-5 my-2 text-6xl font-headerlist ">Contact</li>
           </a>
         </ul>
         </div>

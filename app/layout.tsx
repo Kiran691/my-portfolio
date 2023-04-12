@@ -16,7 +16,7 @@ export default function RootLayout({
       <head>
         <title>Resume-Kiran</title>
       </head>
-      <body className='bg-gradient-to-r from-indigo-500 to-indigo-800'>
+      <body className='bg-gradient-to-r from-indigo-400 to-indigo-600'>
         
         {children}
       </body>
