@@ -13,7 +13,7 @@ export const Homepic = () => {
       <div className='p-5 max-w-lg leading-8'>
         
 
-      <h1 className='text-white text-4xl mb-10'>
+      <h1 className='text-white text-4xl mb-8'>
         Hello, happy to see you!
       </h1>
       <p className=' text-gray-300'>I help small and medium-sized businesses to reach out to the audience globally and grow their audience and brand recognition through web applications and social media.</p>
