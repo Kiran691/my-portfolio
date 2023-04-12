@@ -1,7 +1,9 @@
 import React from 'react'
 import Image from 'next/image';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
-import MyImage from "../public/images/pic5.webp"
+// import MyImage from "../public/images/pic5.webp"
+import MyImage from "../public/images/portfolio/pic-7.webp"
+
 
 export const Homepic = () => {
   return (
@@ -13,15 +15,15 @@ export const Homepic = () => {
       <h1 className='text-white'>
         Hello, happy to see you!
       </h1>
-      <p className=' text-gray-500'>I help small and medium-sized business grow their audience and brand recognition through social media.</p>
-       <button className='group flex item-center bg-gradient-to-r from-cyan-500 to-blue-500 py-2 px-4 rounded-lg'>
+      <p className=' text-gray-300'>I help small and medium-sized businesses to reach out to the audience globally and grow their audience and brand recognition through web applicatiomns and social media.</p>
+       {/* <button className='group flex item-center  bg-gradient-to-b from-cyan-300 text-black to-gray-600"" py-2 px-4 rounded-lg'>
         Profile
        <MdOutlineKeyboardArrowRight 
        size={20} 
        className="gruop-hover:rotate-90 duration-500"
-       />
+       /> 
        </button> 
-      
+       */}
       </div>
       {/* left ends here */}
 

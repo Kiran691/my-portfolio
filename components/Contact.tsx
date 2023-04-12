@@ -7,7 +7,7 @@ export default function Contact() {
           className=" flex items-center max-w-7xl mx-auto leading-8 mb-10"
           id="Contact"
         >
-          <div className="text-gray-500 px-10 mt-32 mx-auto">
+          <div className="text-gray-300 px-10 mt-32 mx-auto">
             <h1 className="text-center text-4xl text-white ">Contact</h1>
             <p className="text-center text-white my-5">Get in touch with me</p>
             <form action="https://formspree.io/f/mbjeaqpn" method="POST">
@@ -40,7 +40,7 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="mx-auto block px-5  rounded-md  bg-gradient-to-b from-gray-300 text-black to-gray-600"
+              className="mx-auto block px-5  rounded-md  bg-gradient-to-b from-gray-200 text-black to-gray-500"
             >
               Submit
             </button>

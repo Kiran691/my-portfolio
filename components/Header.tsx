@@ -3,16 +3,12 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { RxCross2 } from 'react-icons/rx'
 
-//import { Inter } from "@next/font/google";
-
-//const inter = Inter({subsets: ["Latin"]});
-
 export const  Header = () => {
   const [toggle,setToggle] = useState(true);
 
 
   return (
-    <section className="bg-gray-700 text-white sticky top-0">
+    <section className="bg-indigo-700 text-white sticky top-0">
       <div className="flex justify-between items-center">
         <h1 className="font-name m-7">Kiran Imran</h1>
         <ul className="m-7  md:flex hidden">
