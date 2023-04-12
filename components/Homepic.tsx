@@ -7,12 +7,13 @@ import MyImage from "../public/images/portfolio/pic-7.webp"
 
 export const Homepic = () => {
   return (
-    <section className="max-w-4xl mx-auto flex md:flex-row flex-col mt-16" id="Home">
+    <section className="max-w-4xl mx-auto flex md:flex-row flex-col mt-16 text-justify"
+     id="Home">
       {/* left start here  */}
-      <div className='p-5 max-w-lg leading-8'>
+      <div className='p-5 max-w-lg leading-10'>
         
 
-      <h1 className='text-white text-4xl'>
+      <h1 className='text-white text-4xl mb-10'>
         Hello, happy to see you!
       </h1>
       <p className=' text-gray-300'>I help small and medium-sized businesses to reach out to the audience globally and grow their audience and brand recognition through web applications and social media.</p>
