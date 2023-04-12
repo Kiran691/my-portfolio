@@ -10,7 +10,7 @@ export default function Contact() {
           <div className="text-gray-300 px-10 mt-32 mx-auto">
             <h1 className="text-center text-4xl text-white ">Contact</h1>
             <p className="text-center text-white my-5">Get in touch with me</p>
-            <form action="https://formspree.io/f/mbjeaqpn" method="POST">
+            <form action="https://formspree.io/forms" method="POST">
               <div>
               <input
                 placeholder="Your name"

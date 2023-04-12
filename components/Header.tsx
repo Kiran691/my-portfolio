@@ -8,7 +8,7 @@ export const  Header = () => {
 
 
   return (
-    <section className="bg-indigo-600 text-white sticky top-0">
+    <section className="bg-indigo-500 text-white sticky top-0">
       <div className="flex justify-between items-center">
         <h1 className="font-name m-7">Kiran Imran</h1>
         <ul className="m-7  md:flex hidden">
